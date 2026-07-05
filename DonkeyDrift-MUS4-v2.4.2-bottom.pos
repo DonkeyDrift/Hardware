@@ -1,0 +1,12 @@
+### Footprint positions - created on 2026-04-25T21:58:13+0800 ###
+### Printed by KiCad version 9.0.7-9-ga3ce409f20
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                    PosX       PosY       Rot  Side
+CH1_ST    Conn_01x03_Socket  J-2.54-1X3             268.7800   220.0600  180.0000  bottom
+CH2_TH    Conn_01x03_Socket  J-2.54-1X3             268.7800   217.5100  180.0000  bottom
+J5        USB3_A             USB3_A_HanElctricity   181.4726   215.0500    0.0000  bottom
+PWM_1     Conn_01x03_Socket  J-2.54-1X3             255.9100   220.0600  180.0000  bottom
+PWM_2     Conn_01x03_Socket  J-2.54-1X3             255.9100   217.4800  180.0000  bottom
+TP2       TestPoint          TestPoint_Pad_D1.5mm   199.0362   155.7843  180.0000  bottom
+## End

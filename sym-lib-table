@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CH224K")(type "Altium")(uri "D:/工作区/donkeycar/MUS4v2.3_2_AD/MUS4v2.3_2_AD/Libs/CH224K.SchLib")(options "")(descr ""))
+  (lib (name "SL54B-TP")(type "Altium")(uri "D:/工作区/donkeycar/MUS4v2.3_2_AD/MUS4v2.3_2_AD/Libs/SL54B-TP.SchLib")(options "")(descr ""))
+  (lib (name "DonkeyCar")(type "Altium")(uri "D:/工作区/donkeycar/V2.2/AD-1/lib/DonkeyCar.SCHLIB")(options "")(descr ""))
+  (lib (name "DonkeyCarS4-V2.3_2G-altium-import")(type "KiCad")(uri "${KIPRJMOD}/DonkeyCarS4-V2.3_2G-altium-import.kicad_sym")(options "")(descr ""))
+)
