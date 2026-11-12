@@ -1,0 +1,9 @@
+*.zip
+.history/
+
+# KiCad temporary files
+*.lck
+fp-info-cache
+*.bak
+*-backups/
+*.kicad_prl

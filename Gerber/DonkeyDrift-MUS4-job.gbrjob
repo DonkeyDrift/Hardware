@@ -1,0 +1,230 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.2"
+    },
+    "CreationDate": "2026-07-05T20:32:49+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "DonkeyDrift-MUS4",
+      "GUID": "446f6e6b-6579-4447-9269-66742d4d5553",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 196.5496,
+      "Y": 100.0498
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 0.7981,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1778,
+      "PadToTrack": 0.1778,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.1524,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.1778,
+      "PadToTrack": 0.1778,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.1778,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "DonkeyDrift-MUS4-Top Layer.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Signal Layer 1.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Signal Layer 2.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Bottom Layer.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Top Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Bottom Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Top Overlay.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Bottom Overlay.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Top Solder.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Bottom Solder.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 12.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 13.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 3.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "DonkeyDrift-MUS4-Mechanical 4.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Top Layer"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2127,
+      "Material": "FR4",
+      "Name": "Top Layer/Signal Layer 1",
+      "Notes": "Type: dielectric layer 1 (from Top Layer to Signal Layer 1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Signal Layer 1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2127,
+      "Material": "FR4",
+      "Name": "Signal Layer 1/Signal Layer 2",
+      "Notes": "Type: dielectric layer 2 (from Signal Layer 1 to Signal Layer 2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Signal Layer 2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2127,
+      "Material": "FR4",
+      "Name": "Signal Layer 2/Bottom Layer",
+      "Notes": "Type: dielectric layer 3 (from Signal Layer 2 to Bottom Layer)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Bottom Layer"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

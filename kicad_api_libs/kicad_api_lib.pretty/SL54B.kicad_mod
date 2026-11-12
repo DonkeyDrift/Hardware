@@ -1,0 +1,252 @@
+(footprint "c167b71becf44403bc24886c573a5209"
+	(layer "F.Cu")
+	(uuid "9c4b7f06-835e-42a6-ae35-157c090382e8")
+	(at 0 0)
+	(property "Reference" "REF**"
+		(at 0 -3.0344 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c9bb0640-1195-4623-ad33-4de4770e42f9")
+		(effects
+			(font (size 0.762 0.762) (thickness 0.15))
+		)
+	)
+	(property "Value" "SL54B"
+		(at 0 1.5344 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9ff662f-8b4b-456a-8c88-e10cffcb7be2")
+		(effects
+			(font (size 0.762 0.762) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" "http://file.elecfans.com/web2/M00/41/E0/poYBAGJ2Lm2AaBZUAAZKye7eXkE851.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9d3b102-79a5-4d12-8368-bc4a82ea4615")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" "直流反向耐压(Vr):40V;平均整流电流(Io):5A;正向压降(Vf):450mV@5A;"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddd60983-2f12-42c3-b2c2-cc3b38229b98")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "MPN" "SL54B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2552236c-8b17-4863-8d4a-6edcc853a13b")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Manufacturer" "MDD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "340c3106-95f3-4282-bcc4-11808c48d7ef")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "huaqiu_pn" "G6537409"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c62a4339-eea5-4f21-9280-078c8f879ce9")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "forward_voltage" "450 mV"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4afcb9af-208a-4ae6-b49f-f838fc7078d0")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "forward_surge_current" "100 A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f6b5209-5cf9-4974-b32d-07303c4db1e6")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "average_rectified_current" "5 A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac9f82c7-b6af-4f72-9fdf-d18656ce70d9")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "peak_reverse_voltage" "40 V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1f93bd1-68b6-4188-8de2-d290665c32bd")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "reverse_voltage" "40 V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fca55cf-94fe-4491-8aa1-be43df53b1e2")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "reverse_leakage_current" "20 mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c98ccb-348c-4a3b-bd94-81c4ba52afaf")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "diode_configuration" "单路"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b4d25ee-cdae-478b-a51f-404dd83da65c")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "mount" "SMT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04715206-3bf7-4557-a51b-3d34777f8535")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "packaging" "3000pcs"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cac3366-dea2-4618-ae85-623df9a94036")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "package" "SMB(DO-214AA)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caa8d3e6-0dfc-48d2-ae17-e2ae69cacafc")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "lead_free" "Yes"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94a6ff29-514b-4816-bddb-4eeec3df018c")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(fp_line
+		(start -2.378 -2.03)
+		(end 2.378 -2.03)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "bda9a455-670c-4dd7-a320-4bbac795ce4c")
+	)
+	(fp_line
+		(start -2.378 -1.296)
+		(end -2.378 -2.03)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "2a657cc7-b744-42d5-9682-d447eab57cbb")
+	)
+	(fp_line
+		(start -2.378 2.03)
+		(end -2.378 1.296)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "c3d48f00-59a7-49f5-b397-9cb958ee0526")
+	)
+	(fp_line
+		(start 2.378 -2.03)
+		(end 2.378 -1.296)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "0ea26ae4-5cfc-479c-89e5-17421262c528")
+	)
+	(fp_line
+		(start 2.378 1.296)
+		(end 2.378 2.03)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "9c2e2d8c-fb1d-4d19-8e3b-5e1598171e5e")
+	)
+	(fp_line
+		(start 2.378 2.03)
+		(end -2.378 2.03)
+		(stroke (width 0.12) (type default))
+		(layer "F.SilkS")
+		(uuid "739f0909-6dd1-47f1-b519-01b99eb3dd92")
+	)
+	(fp_circle
+		(center -3.7845 0)
+		(end -3.5845 0)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6e6a0735-f446-49a1-8fd4-1c03cce41885")
+	)
+	(fp_poly
+		(pts
+			(xy -2.157 1.81) (xy 2.157 1.81) (xy 2.158 1.81) (xy 2.158 1.809) (xy 2.158 -1.809) (xy 2.158 -1.81)
+			(xy 2.157 -1.81) (xy -2.157 -1.81) (xy -2.158 -1.81) (xy -2.158 -1.809) (xy -2.158 1.809) (xy -2.158 1.81)
+		)
+		(stroke (width 0.12) (type default))
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2c47b143-ac7c-4d1b-9c17-996f1ab546c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "31f1592f-bed7-4c19-8969-6895091c36cf")
+		(effects
+			(font (size 0.762 0.762) (thickness 0.15))
+		)
+	)
+	(pad "1" smd rect
+		(at -2.361 0)
+		(size 2.047 2.192)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4369babf-5b32-46aa-8abd-b338f216aadc")
+	)
+	(pad "2" smd rect
+		(at 2.361 0)
+		(size 2.047 2.192)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9b4efbb2-abf3-4dbb-a970-007944978f2a")
+	)
+	(embedded_fonts no)
+)

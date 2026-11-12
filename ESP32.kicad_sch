@@ -1,0 +1,9892 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5598637d-6b91-4c5b-b094-5a94ccc7a02e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "DonkeyCar:ESP32_0_2N7002_DonkeyCar.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-23-3*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_2N7002_DonkeyCar.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0) (xy 1.016 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_0_CH342F_DonkeyCar.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*QFN-24-4X4-PAD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_CH342F_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 15.24 13.97)
+					(end -15.24 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin passive line
+					(at -6.35 -16.51 90)
+					(length 2.54)
+					(name "RI0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -16.51 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -16.51 90)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -16.51 90)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -16.51 90)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -16.51 90)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "VDD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "~{{RST}}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 1.27 180)
+					(length 2.54)
+					(name "CTS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 3.81 180)
+					(length 2.54)
+					(name "RTS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 6.35 180)
+					(length 2.54)
+					(name "RXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 16.51 270)
+					(length 2.54)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 16.51 270)
+					(length 2.54)
+					(name "DSR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 16.51 270)
+					(length 2.54)
+					(name "DTR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 16.51 270)
+					(length 2.54)
+					(name "DCD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 16.51 270)
+					(length 2.54)
+					(name "RI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 16.51 270)
+					(length 2.54)
+					(name "CTS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "RTS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 3.81 0)
+					(length 2.54)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 1.27 0)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -1.27 0)
+					(length 2.54)
+					(name "DSR0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -3.81 0)
+					(length 2.54)
+					(name "DTR0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "DCD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_0_ESP32-WROOM-E_DonkeyCar.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*ESP32-WROOM-32E*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_ESP32-WROOM-E_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 30.48 22.86)
+					(end -30.48 -22.86)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(text "ESP32-­WROOM­"
+					(at 5.08 -5.08 0)
+					(effects
+						(font
+							(size 2.159 2.159)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 20.32 0)
+					(length 2.54)
+					(name "EN/CHIP_PU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 -10.16 0)
+					(length 2.54)
+					(name "SENSOR_VP/GPIO36/ADC1_CH0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 -12.7 0)
+					(length 2.54)
+					(name "SENSOR_VN/GPIO39/ADC1_CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 -5.08 0)
+					(length 2.54)
+					(name "GPIO34/ADC1_CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 -7.62 0)
+					(length 2.54)
+					(name "GPIO35/ADC1_CH7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 15.24 0)
+					(length 2.54)
+					(name "32K_XP/GPIO32/ADC1_CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 12.7 0)
+					(length 2.54)
+					(name "32K_XN/GPIO33/ADC1_CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -15.24 180)
+					(length 2.54)
+					(name "DAC_1/ADC2_CH8/GPIO25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.78 180)
+					(length 2.54)
+					(name "DAC_2/ADC2_CH9/GPIO26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -20.32 180)
+					(length 2.54)
+					(name "ADC2_CH7/GPIO27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 2.54 0)
+					(length 2.54)
+					(name "MTMS/GPIO14/ADC2_CH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 7.62 0)
+					(length 2.54)
+					(name "MTDI/GPIO12/ADC2_CH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 5.08 0)
+					(length 2.54)
+					(name "MTCK/GPIO13/ADC2_CH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -33.02 0 0)
+					(length 2.54)
+					(name "MTDO/GPIO15/ADC2_CH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 10.16 180)
+					(length 2.54)
+					(name "ADC2_CH2/GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 12.7 180)
+					(length 2.54)
+					(name "GPIO0/BOOT/ADC2_CH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 7.62 180)
+					(length 2.54)
+					(name "ADC2_CH0/GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 2.54 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 5.08 180)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 2.54)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 17.78 180)
+					(length 2.54)
+					(name "U0RXD/GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 20.32 180)
+					(length 2.54)
+					(name "U0TXD/GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 2.54)
+					(name "GPIO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.7 180)
+					(length 2.54)
+					(name "GPIO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "GND_THERMAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-23-6*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 7.62 10.16)
+					(end 0 0)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 11.43 7.62 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 5.08 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 13.97 270)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB_2_0"
+				(rectangle
+					(start 7.62 11.43)
+					(end 0 -8.89)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 3.81 -12.7 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 15.24 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_0_USB_C_Receptacle_USB2.0_16P_DonkeyCar.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*USB-C-16P*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_USB_C_Receptacle_USB2.0_16P_DonkeyCar.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -8.9147 3.7776)
+					(mid -7.0023 5.7399)
+					(end -5.055 3.8122)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 133 32 12 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.0553 -3.7776)
+					(mid -6.9677 -5.7399)
+					(end -8.915 -3.8122)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 133 32 12 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 3.81)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 -16.764)
+					(end -0.254 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 3.048)
+					(end 1.905 1.778)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 10.16 17.78)
+					(end -10.16 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_1_C-0402-10V/1uf_DonkeyCar.SCHLIB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*C-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_1_C-0402-10V/1uf_DonkeyCar.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy -2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy -2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*C-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy -2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy -2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_1_R-0402-10K_DonkeyCar.SCHLIB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*R-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_1_R-0402-10K_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_2_mirrored_2N7002_DonkeyCar.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-23-3*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_2_mirrored_2N7002_DonkeyCar.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0) (xy 1.016 0)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_2_mirrored_TS5A3159ADBVR_DonkeyCar.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-23-6*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_2_mirrored_TS5A3159ADBVR_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 7.62 0)
+					(end 0 -10.16)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -5.08 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -13.97 90)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32_2_mirrored_TS5A3159ADBVR_DonkeyCar.SCHLIB_2_0"
+				(rectangle
+					(start 7.62 8.89)
+					(end 0 -11.43)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 3.81 12.7 270)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -15.24 90)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCar:ESP32_3_R-0402-10K_DonkeyCar.SCHLIB"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*R-0402*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_3_R-0402-10K_DonkeyCar.SCHLIB_1_0"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "电源符号创建名为 '+3V3' 的全局标签"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_ARROW_0_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCarS4-V2.3_2G-altium-import:+5V_USB_ARROW"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V_USB"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "电源符号创建名为 '+5V_USB' 的全局标签"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_USB_ARROW_0_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+5V_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "电源符号创建名为 'GND' 的全局标签"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_ARROW_0_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27) (xy 0 -2.54) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:ESP32_0_SP0503BAHT_Power_Protection"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT-143*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_0_SP0503BAHT_Power_Protection_1_0"
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.445 2.54)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:ESP32_1_SW_Push_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SWITCH-3*4*2.5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_1_SW_Push_Switch_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 38.1 194.7672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "072bd31b-abdd-4a8f-9859-2ca8150bfd57")
+	)
+	(junction
+		(at 85.09 91.8972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b9ebad6-3983-473c-9720-2ce4bd691388")
+	)
+	(junction
+		(at 153.67 74.1172)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a78195-76dc-451c-8a97-dda54215f39c")
+	)
+	(junction
+		(at 21.59 43.6372)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "293fbf38-6a78-481c-8c71-336521830242")
+	)
+	(junction
+		(at 85.09 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d89af2-aee1-4326-b5cb-c4c58742c500")
+	)
+	(junction
+		(at 53.34 170.6372)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346d3ba0-8aea-4a46-a9ba-0e071d38b3a8")
+	)
+	(junction
+		(at 60.96 170.6372)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3afad576-9296-4bf2-84d7-56d7a3db49da")
+	)
+	(junction
+		(at 254 41.0972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42987e92-4e7e-49ef-a83f-bf10e8ba49de")
+	)
+	(junction
+		(at 127 121.1072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd95acd-9c34-4229-9a61-59f2eba3dc30")
+	)
+	(junction
+		(at 130.81 103.3272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d63ec00-5892-494a-b08a-e9572ae0927d")
+	)
+	(junction
+		(at 199.39 76.6572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54958d3b-85f3-4b5d-9afc-e65340a1acc9")
+	)
+	(junction
+		(at 63.5 160.4772)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66875f56-147e-41c7-b312-4658a6731436")
+	)
+	(junction
+		(at 58.42 151.5872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69e10d0c-3b4b-4c7e-ac69-a4814db5d47a")
+	)
+	(junction
+		(at 114.3 128.7272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1f9c73-8960-4da9-a1e4-508c9e4cf806")
+	)
+	(junction
+		(at 91.44 142.6972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d249cdd-5dba-406d-a84b-04eba8dcb328")
+	)
+	(junction
+		(at 53.34 165.5572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768b0ec3-9ce3-420f-81b1-c185ae174ad2")
+	)
+	(junction
+		(at 58.42 165.5572)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84e514a0-0785-442f-b620-182ae32faaca")
+	)
+	(junction
+		(at 254 83.0072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86fef282-3b13-45ff-b3a0-993c2d80be8a")
+	)
+	(junction
+		(at 254 110.9472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aba1fe0-06cf-4bb3-bccc-a1ab1eb55616")
+	)
+	(junction
+		(at 146.685 71.5772)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9791d1d-97d2-48cb-a75b-c3348269fa1f")
+	)
+	(junction
+		(at 254 69.0372)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a6e529-608f-4e97-9353-ec7f7fc2b46e")
+	)
+	(junction
+		(at 105.41 128.7272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d635af6b-63f3-4435-a477-4ec4550846e8")
+	)
+	(junction
+		(at 152.4 112.2172)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da8993ec-5704-408c-a99c-bd0d15ab859f")
+	)
+	(junction
+		(at 149.86 60.7822)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f40ea317-d942-46e0-a0b9-d7ee1b9d4f0a")
+	)
+	(no_connect
+		(at 105.41 126.1872)
+		(uuid "10341271-33ae-4b0a-b6d0-df0976fcbd6d")
+	)
+	(no_connect
+		(at 53.34 182.0672)
+		(uuid "112bc256-7c6e-4bb4-af89-d48393c297b8")
+	)
+	(no_connect
+		(at 52.07 63.9572)
+		(uuid "259a536a-b64d-40f2-a074-2a570b157f26")
+	)
+	(no_connect
+		(at 81.28 108.4072)
+		(uuid "42400f71-b4b0-41a7-8595-60e984e8398d")
+	)
+	(no_connect
+		(at 91.44 108.4072)
+		(uuid "44f47217-d127-44ec-9964-9c8e06f94481")
+	)
+	(no_connect
+		(at 83.82 108.4072)
+		(uuid "4a5cccd7-cb8c-4708-ad6c-ebd77ab954e0")
+	)
+	(no_connect
+		(at 86.36 108.4072)
+		(uuid "59c1a975-063d-4de7-8bac-035a3c370348")
+	)
+	(no_connect
+		(at 53.34 159.2072)
+		(uuid "6d2c5a2b-defd-4796-b702-85c6ecc2dcf7")
+	)
+	(no_connect
+		(at 69.85 128.7272)
+		(uuid "82c9c352-8c7e-4c62-b5e6-1a7548834da9")
+	)
+	(no_connect
+		(at 69.85 126.1872)
+		(uuid "b8401c4b-0035-45ea-8e1d-0e5e055a6bf5")
+	)
+	(no_connect
+		(at 105.41 123.6472)
+		(uuid "b9c69e8f-5c38-4947-8cc3-ce7bdc836499")
+	)
+	(no_connect
+		(at 53.34 179.5272)
+		(uuid "bc32e1e0-45a8-4d00-a6a3-1a4d9049e611")
+	)
+	(no_connect
+		(at 53.34 156.6672)
+		(uuid "bcee40f6-bfea-4d09-90e6-bbfb56d5f6cf")
+	)
+	(no_connect
+		(at 69.85 118.5672)
+		(uuid "bdef6d60-fdec-4c82-8899-6a9246ee2e70")
+	)
+	(no_connect
+		(at 81.28 141.4272)
+		(uuid "beaeb318-26ac-49e3-b1ac-7b4c7375c748")
+	)
+	(no_connect
+		(at 69.85 131.2672)
+		(uuid "d5e705b5-9294-497d-96c7-2763ef066296")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.6372) (xy 142.24 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01104944-d382-4df2-a9ab-6f4dbb61343a")
+	)
+	(wire
+		(pts
+			(xy 91.44 141.4272) (xy 91.44 142.6972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c27dd8-545b-47c2-adfd-9c0299f16814")
+	)
+	(wire
+		(pts
+			(xy 21.59 43.6372) (xy 52.07 43.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09217061-a444-46c7-a61d-bcfedb8e0811")
+	)
+	(wire
+		(pts
+			(xy 53.34 170.6372) (xy 60.96 170.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b365e87-d967-4ca9-989d-6147ee95e523")
+	)
+	(wire
+		(pts
+			(xy 21.59 53.7972) (xy 21.59 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d26568d-05ef-4e4b-9bab-eed878edb616")
+	)
+	(wire
+		(pts
+			(xy 85.09 33.02) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4553b2-8d6c-4e96-b0ac-d60cc8af764c")
+	)
+	(wire
+		(pts
+			(xy 139.7 46.1772) (xy 139.7 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e240673-04c6-47dc-a9e6-5ab67c7b759c")
+	)
+	(wire
+		(pts
+			(xy 127 108.4072) (xy 127 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a80811-17ab-4714-a1a8-ac0a42047cd5")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.1672) (xy 219.71 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b7aae8-2138-4941-b6aa-f92e62876089")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.4972) (xy 135.89 66.4972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e0065-c105-4eeb-b558-3126a8517d7e")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.8772) (xy 38.1 58.8772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5dfc22-b6a5-4519-a70b-a2deae7dc4b0")
+	)
+	(wire
+		(pts
+			(xy 43.18 71.5772) (xy 52.07 71.5772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f537122-7db8-48a7-9558-31ae214ca33e")
+	)
+	(wire
+		(pts
+			(xy 53.34 165.5572) (xy 53.34 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22790e57-3405-4453-adc8-a3e8f4cccb4f")
+	)
+	(wire
+		(pts
+			(xy 60.96 170.6372) (xy 60.96 178.2572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230a08b4-3760-4e66-aa0f-8d77f82f162c")
+	)
+	(wire
+		(pts
+			(xy 96.52 33.02) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b66cc9-c899-4de6-82ff-a5ed5bfa20e2")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.6572) (xy 52.07 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254957ca-94eb-4457-a564-8dc7c1150420")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.5572) (xy 88.9 165.5572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283146ac-6a10-4032-b65e-eb6fb18daf94")
+	)
+	(wire
+		(pts
+			(xy 254 81.1022) (xy 254 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289a1b74-95a6-48d9-85d3-7d4de7e6dbb3")
+	)
+	(wire
+		(pts
+			(xy 241.3 83.0072) (xy 241.3 91.8972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df8789b-8309-4e68-b341-6590c680176c")
+	)
+	(wire
+		(pts
+			(xy 128.27 79.1972) (xy 118.11 79.1972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bae5fa-8cda-4a36-afe8-8036d6fcc7e9")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.6472) (xy 69.85 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342ea2bf-a25e-4c0d-9749-518f4b49cdc6")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.7972) (xy 128.27 53.7972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae7727e-31aa-4f66-b060-85d1b15a5dcd")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.4772) (xy 63.5 160.4772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d1e8b6-163e-4789-a388-5984c30c6db5")
+	)
+	(wire
+		(pts
+			(xy 91.44 142.6972) (xy 96.52 142.6972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46184d1c-7e2b-4478-8b5e-a2e4f5640952")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.7272) (xy 105.41 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48ec4fe3-2a3d-4551-9fb5-4da0d9fb3ce0")
+	)
+	(wire
+		(pts
+			(xy 53.34 151.5872) (xy 58.42 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4951de2e-056c-4ea8-9097-fd5686f4211e")
+	)
+	(wire
+		(pts
+			(xy 52.07 61.4172) (xy 38.1 61.4172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be54dc8-b393-40f2-946c-77460667e05d")
+	)
+	(wire
+		(pts
+			(xy 138.43 126.1872) (xy 152.4 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5270e76e-0fa4-45ca-88d4-f789de39e1e6")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.5572) (xy 58.42 178.2572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a4cb33-780e-473a-a34f-90e6c83566bd")
+	)
+	(wire
+		(pts
+			(xy 241.3 57.6072) (xy 241.3 69.0372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559136b1-e2dc-4b68-ac10-02e18238c2ac")
+	)
+	(wire
+		(pts
+			(xy 53.34 164.2872) (xy 53.34 165.5572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59553329-54fb-4a22-b2b1-cb79f19bac99")
+	)
+	(wire
+		(pts
+			(xy 207.01 98.2472) (xy 219.71 98.2472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597d67fd-9dc3-4f9a-97c5-f3d1a00bc853")
+	)
+	(wire
+		(pts
+			(xy 85.09 33.02) (xy 85.09 38.5572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c71dc42-607a-4693-a9a7-843ff2a05305")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.0372) (xy 135.89 69.0372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce6ba58-1b6b-44b1-ac70-1709a6d3607a")
+	)
+	(wire
+		(pts
+			(xy 30.48 189.6872) (xy 30.48 194.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df96f8e-97ae-42e1-9553-069d0aa5f621")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.6572) (xy 199.39 86.8172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618bcfe0-a6c6-4b49-8d8a-3772a6b09c33")
+	)
+	(wire
+		(pts
+			(xy 127 51.2572) (xy 118.11 51.2572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d4a03c-ff0a-4a21-bae0-1c5fd94ca576")
+	)
+	(wire
+		(pts
+			(xy 53.34 165.5572) (xy 58.42 165.5572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636c6120-c772-41e9-af7e-1d919a4433e5")
+	)
+	(wire
+		(pts
+			(xy 241.3 69.0372) (xy 254 69.0372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63942d76-a855-45a5-842b-799efae77b32")
+	)
+	(wire
+		(pts
+			(xy 254 38.5572) (xy 254 41.0972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67feaec9-da7d-4783-aa51-4e3e8f4b610a")
+	)
+	(wire
+		(pts
+			(xy 104.14 141.4272) (xy 93.98 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680f6ac0-7314-480b-845a-af90da77b36d")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.6272) (xy 93.98 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb93248-c33e-46f8-b6af-6237b297af1e")
+	)
+	(wire
+		(pts
+			(xy 43.18 69.0372) (xy 52.07 69.0372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c97191a-f623-4201-8f6a-e445fbfa28fc")
+	)
+	(wire
+		(pts
+			(xy 63.5 178.2572) (xy 63.5 160.4772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc3d25e-d3c6-4331-8b7e-e1b25d3dc6bf")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.1472) (xy 219.71 60.1472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecfd1f0-d788-4110-93b6-78975f7d200c")
+	)
+	(wire
+		(pts
+			(xy 118.11 46.1772) (xy 139.7 46.1772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75217417-22ac-4b67-bf8d-7eba69276315")
+	)
+	(wire
+		(pts
+			(xy 241.3 110.9472) (xy 254 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b05dc2-6838-437f-ad54-60ee00c1518c")
+	)
+	(wire
+		(pts
+			(xy 38.1 189.6872) (xy 38.1 194.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78172f85-8f2a-492a-bf69-76a015e18026")
+	)
+	(wire
+		(pts
+			(xy 146.685 60.7822) (xy 149.86 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bff2859-5dcc-48b7-9d9c-1b2e67372fa7")
+	)
+	(wire
+		(pts
+			(xy 207.01 55.0672) (xy 219.71 55.0672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e0197a-81c9-4efb-9183-adba0dda3442")
+	)
+	(wire
+		(pts
+			(xy 85.09 91.8972) (xy 87.63 91.8972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8575ea72-f99b-42f7-9483-bc2c7bb70b19")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.1072) (xy 127 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1783e8-ecc1-4646-866e-c7e1e4da4659")
+	)
+	(wire
+		(pts
+			(xy 138.43 108.4072) (xy 127 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bde4aec-4b65-43c8-85a9-9374c895cd26")
+	)
+	(wire
+		(pts
+			(xy 191.77 95.7072) (xy 182.88 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c18a464-449b-40f9-aac3-89635b8af064")
+	)
+	(wire
+		(pts
+			(xy 42.545 51.2572) (xy 52.07 51.2572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdfcaf4-42e3-4349-bc83-fe00899e7571")
+	)
+	(wire
+		(pts
+			(xy 130.81 112.8522) (xy 138.43 112.8522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949565f7-cf4d-49cf-82dd-d47e97f8e762")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.8772) (xy 128.27 58.8772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980d1f57-04a9-40c7-a869-f0c4d311f224")
+	)
+	(wire
+		(pts
+			(xy 152.4 112.2172) (xy 152.4 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999fe598-0c52-4f37-85a0-8743d85cc49e")
+	)
+	(wire
+		(pts
+			(xy 254 83.0072) (xy 241.3 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac4f186-0228-4f65-ad15-65990c4ad993")
+	)
+	(wire
+		(pts
+			(xy 118.11 84.2772) (xy 128.27 84.2772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01319ff-236b-4198-994b-84aed9d6fc6d")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.1172) (xy 52.07 74.1172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a039ee30-407e-4f21-9c49-24c7d9790dd6")
+	)
+	(wire
+		(pts
+			(xy 60.96 188.4172) (xy 60.96 194.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17efb13-3b3a-4ede-bd35-4551effcb202")
+	)
+	(wire
+		(pts
+			(xy 52.07 56.3372) (xy 40.64 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b359b6-01f0-41c7-b81a-9451247d4c1c")
+	)
+	(wire
+		(pts
+			(xy 85.09 89.3572) (xy 85.09 91.8972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a500a0c7-5aca-4774-bf5a-fd901ca9cc80")
+	)
+	(wire
+		(pts
+			(xy 21.59 43.6372) (xy 21.59 46.1772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fa3c8f-ee09-45a0-aea9-cebb5b2746c2")
+	)
+	(wire
+		(pts
+			(xy 95.25 33.02) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87cbf95-645c-43ff-ac74-4bbdc8e0ad25")
+	)
+	(wire
+		(pts
+			(xy 60.96 170.6372) (xy 86.36 170.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa30a080-36be-4836-afe0-6f159f5b3e5f")
+	)
+	(wire
+		(pts
+			(xy 42.545 48.7172) (xy 52.07 48.7172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad696d0b-525b-4f63-8f66-389ec6c8fbca")
+	)
+	(wire
+		(pts
+			(xy 114.3 160.4772) (xy 114.3 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae360955-505f-41b8-9abf-f36b081a3fa9")
+	)
+	(wire
+		(pts
+			(xy 146.685 71.5772) (xy 146.685 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af63c8a0-4cb3-4f8a-8be6-8126e2a7334f")
+	)
+	(wire
+		(pts
+			(xy 160.655 71.5772) (xy 146.685 71.5772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00ac1ff-601f-471d-bd2a-ecd9b20f1840")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.4772) (xy 114.3 160.4772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38d0125-2650-4588-9c53-4550f3de98c6")
+	)
+	(wire
+		(pts
+			(xy 53.34 169.3672) (xy 53.34 170.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd56fe91-5517-49f6-a76a-f12120b9c86e")
+	)
+	(wire
+		(pts
+			(xy 152.4 108.4072) (xy 152.4 112.2172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25535ce-a1aa-42d6-9fbb-fc64904f61ef")
+	)
+	(wire
+		(pts
+			(xy 146.685 62.6872) (xy 146.685 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31f60d0-528a-4ce6-a9f9-e6958280e326")
+	)
+	(wire
+		(pts
+			(xy 58.42 151.5872) (xy 63.5 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37efbff-5050-435f-b7ce-7f4d7542fb98")
+	)
+	(wire
+		(pts
+			(xy 118.11 43.6372) (xy 142.24 43.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d25813-c6ca-47ed-90b5-53ffe485773e")
+	)
+	(wire
+		(pts
+			(xy 128.27 63.9572) (xy 118.11 63.9572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fc5602-d8ba-4121-9df5-ec8533fa747b")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.8772) (xy 149.86 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a90a4c-375e-4698-8670-6911aa4a03da")
+	)
+	(wire
+		(pts
+			(xy 91.44 142.6972) (xy 91.44 149.0472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f49a1a-db32-4d0e-9fd2-bf10f62b6d07")
+	)
+	(wire
+		(pts
+			(xy 118.11 56.3372) (xy 128.27 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c71919-d453-46c4-bf40-7e65efbc141d")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.7272) (xy 118.11 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9112689-49e5-428c-8a5e-daf9e62fbaff")
+	)
+	(wire
+		(pts
+			(xy 104.14 142.6972) (xy 104.14 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5a3485-3ff4-4587-b1e2-cc740d8b1b7c")
+	)
+	(wire
+		(pts
+			(xy 138.43 98.2472) (xy 152.4 98.2472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7cb33d-120a-4bcd-a001-5f321bd73a6e")
+	)
+	(wire
+		(pts
+			(xy 88.9 165.5572) (xy 88.9 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd693ddf-f5de-495b-bf08-b7ce2864b791")
+	)
+	(wire
+		(pts
+			(xy 58.42 151.5872) (xy 58.42 160.4772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf76f6f7-190c-49ec-81ff-eaf7b0dcadb6")
+	)
+	(wire
+		(pts
+			(xy 127 121.1072) (xy 130.81 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a5a7e-a947-4a66-b823-f10b80ff2272")
+	)
+	(wire
+		(pts
+			(xy 146.685 71.5772) (xy 118.11 71.5772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1904859-6c0f-4189-9a9c-416e4bec0d33")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.7822) (xy 153.67 62.6872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ba962d-9aad-41b6-9506-e0b307213228")
+	)
+	(wire
+		(pts
+			(xy 88.9 103.3272) (xy 130.81 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fcaea1-0038-4eb7-ba1e-ca281113d9cc")
+	)
+	(wire
+		(pts
+			(xy 128.27 61.4172) (xy 118.11 61.4172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d898da04-8729-48e0-b533-f74e4edfb992")
+	)
+	(wire
+		(pts
+			(xy 118.11 81.7372) (xy 128.27 81.7372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99a8277-7605-4bcc-9db3-8122132309e3")
+	)
+	(wire
+		(pts
+			(xy 30.48 194.7672) (xy 38.1 194.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d58d1c-c970-4d92-aaf9-debb92b99c89")
+	)
+	(wire
+		(pts
+			(xy 86.36 170.6372) (xy 86.36 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de11b392-d329-4e8f-b090-8a44b38d4154")
+	)
+	(wire
+		(pts
+			(xy 21.59 41.0972) (xy 21.59 43.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8aec71-46bf-4993-90e6-20ba43dee917")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.7822) (xy 153.67 60.7822)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b21107-2a56-42ff-8022-b94c80ed328c")
+	)
+	(wire
+		(pts
+			(xy 50.8 121.1072) (xy 69.85 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ec2215-15a9-430d-95be-50f7c03e36c4")
+	)
+	(wire
+		(pts
+			(xy 60.96 194.7672) (xy 38.1 194.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e6ddce-0275-4902-9f50-4edf9bba5af9")
+	)
+	(wire
+		(pts
+			(xy 199.39 76.6572) (xy 182.88 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7854552-75ca-4840-85fa-ab566068e37a")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.1672) (xy 114.3 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79f6473-835e-41b9-9cee-48a55b85d571")
+	)
+	(wire
+		(pts
+			(xy 241.3 41.0972) (xy 241.3 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e927dd4d-9405-4ec9-ae98-36dfc6de1473")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.6272) (xy 93.98 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6c2e90-52bf-4a7c-8c71-189604d20484")
+	)
+	(wire
+		(pts
+			(xy 53.34 171.9072) (xy 53.34 170.6372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7f51bd-8d05-4047-8cb1-1fe3a2c67e71")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.4972) (xy 199.39 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1a0f19-4556-4972-9ca7-b9af6d80d343")
+	)
+	(wire
+		(pts
+			(xy 160.655 74.1172) (xy 153.67 74.1172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec29df03-1fb7-4e19-b45d-9761ac6f008d")
+	)
+	(wire
+		(pts
+			(xy 254 41.0972) (xy 241.3 41.0972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edab9b84-a5e5-4b88-9f69-5f3ad4ef98d4")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.6072) (xy 182.88 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eded2416-a827-42d5-b9b8-dca8c3ac65af")
+	)
+	(wire
+		(pts
+			(xy 138.43 112.8522) (xy 138.43 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4b9fe1-8247-4c42-9f03-84792c23b46a")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.1672) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f021100f-348e-428e-9f70-c3ed208c0a1b")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.7272) (xy 114.3 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18a8bc9-7b48-4864-b9cb-ec67a5f81f96")
+	)
+	(wire
+		(pts
+			(xy 153.67 70.3072) (xy 153.67 74.1172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dc62b3-c571-4a1a-8dd7-3bb2f2016c1e")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.1172) (xy 118.11 74.1172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3482236-bc98-4810-92b9-8c648b243335")
+	)
+	(wire
+		(pts
+			(xy 85.09 30.48) (xy 85.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e41655-7690-4f18-884e-a869d31e27f8")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.6572) (xy 128.27 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92e9e75-c9c0-4177-ae5a-e794b1ca94bb")
+	)
+	(wire
+		(pts
+			(xy 88.9 108.4072) (xy 88.9 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa439207-ca47-434b-9b26-d248a68ff23b")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.5172) (xy 241.3 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb951fb0-76de-4ae0-9301-7290fb965c47")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.5672) (xy 105.41 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbe56ac-4fb6-4aac-a5af-b63f10d60d65")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.8972) (xy 87.63 89.3572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5b9071-db5c-4d1f-a78f-ab0894fefaaa")
+	)
+	(wire
+		(pts
+			(xy 130.81 103.3272) (xy 130.81 112.8522)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff796a5b-f688-468e-988b-8d3d3ba65389")
+	)
+	(label "PWM_IN1"
+		(at 44.45 74.1172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02e81083-9305-46de-9cb7-9f88a2b75674")
+	)
+	(label "UART_SEL"
+		(at 182.88 76.6572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07f1d760-86bb-46b8-8972-d5e19deb2a8b")
+	)
+	(label "CPU_TX0"
+		(at 54.61 121.1072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21cce6ef-7578-4c60-a28d-ffdea0241a08")
+	)
+	(label "PWM_IN2"
+		(at 44.45 76.6572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a6ef95c-0348-4fd3-92f2-00c120b8eed2")
+	)
+	(label "MCU_RX0"
+		(at 130.81 46.1772 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "371d329a-428f-4cf4-ac0d-d8c418ec6b22")
+	)
+	(label "PWM_IN6"
+		(at 44.45 71.5772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e91844-c349-4dd8-91cf-2a3ed721724a")
+	)
+	(label "CPU_RX2"
+		(at 208.28 60.1472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "452e93d4-8dd4-4840-9b87-24c684ec8405")
+	)
+	(label "BOOT"
+		(at 146.05 126.1872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69c7c77e-c256-45ab-9201-56040cc4ce85")
+	)
+	(label "MCU_RX2"
+		(at 182.88 95.7072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a9389f2-5ecc-43cd-87e6-a42b2fc653bf")
+	)
+	(label "EX_RX"
+		(at 208.28 98.2472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80053590-ec8a-4209-a79d-16afaf387d88")
+	)
+	(label "DTR"
+		(at 121.92 103.3272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85351c2f-472e-4368-afc7-11272a3566a6")
+	)
+	(label "BOOT"
+		(at 123.825 51.2572 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c704133-4261-4383-b566-cd52972e36d9")
+	)
+	(label "CHIP_PU"
+		(at 146.05 98.2472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f0adb1b-8568-471e-a483-8bef06d0815a")
+	)
+	(label "MCU_TX0"
+		(at 130.81 43.6372 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fa0595d-91e3-4990-8967-2ba62e3c8e2f")
+	)
+	(label "CHIP_PU"
+		(at 43.18 43.6372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eea1a4a-509b-42fc-a5b2-362603ac89f6")
+	)
+	(label "SCL_3"
+		(at 40.64 61.4172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1978d4e-ac34-4b8f-87ac-d53c4e46ffaa")
+	)
+	(label "SCL0"
+		(at 130.81 74.1172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7348c96-ebfb-41e4-8354-d8f8595a13bb")
+	)
+	(label "SDA0"
+		(at 130.81 71.5772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8cbb5bb-0a25-4cf8-aa90-83b795f09e15")
+	)
+	(label "PWM_IN5"
+		(at 119.38 84.2772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a943a33b-b8a3-4e0a-b501-abea4a91f08a")
+	)
+	(label "MCU_RX2"
+		(at 127 69.0372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b51003ee-4abe-403e-8f10-4d460dfe4a9a")
+	)
+	(label "ID_MOTO"
+		(at 119.38 56.3372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ed8e8f-ad9b-495f-86e9-84828411a986")
+	)
+	(label "MCU_TX2"
+		(at 182.88 57.6072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba6193b1-7834-4764-8036-e1474740ac71")
+	)
+	(label "PWM_IN3"
+		(at 44.45 69.0372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1eca32-666e-44b9-8d28-6651203136de")
+	)
+	(label "CPU_TX2"
+		(at 208.28 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0989bec-cf56-48e1-a5b0-8887141d8084")
+	)
+	(label "WS2812"
+		(at 119.38 58.8772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7964e0d-2a25-4ff3-99cf-52f1c92182a7")
+	)
+	(label "RTS"
+		(at 121.92 121.1072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cba89dc5-c0d0-43dd-9fa7-f007d2cc9f31")
+	)
+	(label "SDA_3"
+		(at 40.64 58.8772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d64afb80-309e-4434-98ea-c0da57c574a8")
+	)
+	(label "CPU_RX0"
+		(at 54.61 123.6472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc4a8b5-7ef0-4e5f-ac7a-2a886d3ab506")
+	)
+	(label "PWM_IN4"
+		(at 119.38 81.7372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0849577-64de-4c4a-913c-7378bbecd122")
+	)
+	(label "UART_SEL"
+		(at 40.64 56.3372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e12e9778-6d25-4836-8c7d-e71f67a656dd")
+	)
+	(label "EX_TX"
+		(at 208.28 55.0672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d62a6d-f53c-4f22-a93f-4f385341e6e2")
+	)
+	(label "BZ"
+		(at 119.38 53.7972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed2ab0b2-25e8-4d80-9a10-ff6bbd0487af")
+	)
+	(label "MCU_TX2"
+		(at 127 66.4972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1a5f960-92a0-4fd7-9ea2-102ab0df863c")
+	)
+	(hierarchical_label "CH2_TR"
+		(shape output)
+		(at 128.27 79.1972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04ae702d-e31b-410c-9082-04fa540d7f68")
+	)
+	(hierarchical_label "PWM_IN4"
+		(shape input)
+		(at 128.27 81.7372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "053f54f7-4462-425e-89fa-842d675c76fd")
+	)
+	(hierarchical_label "WS2812"
+		(shape output)
+		(at 128.27 58.8772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d4d4cec-18da-4ac9-bb5e-771f3741f175")
+	)
+	(hierarchical_label "BZ"
+		(shape output)
+		(at 128.27 53.7972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ec8b6d6-367e-4394-a139-73ca7786fc9d")
+	)
+	(hierarchical_label "ID_MOTO"
+		(shape input)
+		(at 128.27 56.3372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24ead03a-2ddd-4cd1-8f58-ddf881884aa2")
+	)
+	(hierarchical_label "PWM_IO_2"
+		(shape output)
+		(at 42.545 51.2572 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b535fbe-5855-4d3f-b48b-85b51bf22397")
+	)
+	(hierarchical_label "PWM_IN3"
+		(shape input)
+		(at 43.18 69.0372 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37f2fb14-f9a4-4d71-bf68-bad676d0dbf4")
+	)
+	(hierarchical_label "CPU_TX2"
+		(shape output)
+		(at 219.71 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4605dd69-9f97-4da3-b2bb-b4ad831decdd")
+	)
+	(hierarchical_label "SCL0"
+		(shape bidirectional)
+		(at 160.655 74.1172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b27b432-2d7e-401b-89ad-458b5fd2f4c6")
+	)
+	(hierarchical_label "SDA0"
+		(shape bidirectional)
+		(at 160.655 71.5772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "616401cb-35ae-420d-8112-ba8848e6e79f")
+	)
+	(hierarchical_label "CPU_TX0"
+		(shape output)
+		(at 50.8 121.1072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6447b4cf-9cd5-4359-95d0-efd9503ebf47")
+	)
+	(hierarchical_label "PWM_IN1"
+		(shape input)
+		(at 43.18 74.1172 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dddc469-6b12-451b-af61-aba75a0180bf")
+	)
+	(hierarchical_label "CPU_RX2"
+		(shape input)
+		(at 219.71 60.1472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cf747ce-ee5c-459b-8195-e6a410b01266")
+	)
+	(hierarchical_label "PWM_IO_1"
+		(shape output)
+		(at 42.545 48.7172 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cb9061a-d57e-4b1e-8622-04c26f378343")
+	)
+	(hierarchical_label "SDA_3"
+		(shape bidirectional)
+		(at 38.1 58.8772 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94d6225d-d9f4-498c-9166-f77aac3d85a3")
+	)
+	(hierarchical_label "MCU_TX1"
+		(shape output)
+		(at 128.27 63.9572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b961561-df73-4cc6-a422-89ac84683499")
+	)
+	(hierarchical_label "MCU_RX1"
+		(shape input)
+		(at 128.27 61.4172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0b6361e-537a-4683-b35e-027ebd29c792")
+	)
+	(hierarchical_label "CPU_RX0"
+		(shape input)
+		(at 50.8 123.6472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6482ed9-8f10-4f6f-89e3-00bd58f2b5dc")
+	)
+	(hierarchical_label "SCL_3"
+		(shape bidirectional)
+		(at 38.1 61.4172 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba029287-a340-455a-ab3e-0a150f240309")
+	)
+	(hierarchical_label "EX_TX"
+		(shape input)
+		(at 219.71 55.0672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf42691f-77de-4bc5-8070-17bdc1a3ad5c")
+	)
+	(hierarchical_label "+5V_USB"
+		(shape output)
+		(at 63.5 151.5872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4bc78b4-0931-45b2-8804-6d32572d7e96")
+	)
+	(hierarchical_label "CH1_ST"
+		(shape output)
+		(at 128.27 76.6572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d09f91af-a65b-48a8-b3b1-3e66c7a42c85")
+	)
+	(hierarchical_label "PWM_IN2"
+		(shape input)
+		(at 43.18 76.6572 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcd1af5b-eab6-4776-8aeb-deb2a57249cf")
+	)
+	(hierarchical_label "EX_RX"
+		(shape input)
+		(at 219.71 98.2472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfe4ee7c-80c5-4dab-8c9e-78f57d46e7f8")
+	)
+	(hierarchical_label "PWM_IN6"
+		(shape input)
+		(at 43.18 71.5772 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b15b08-3961-421d-8f76-774c7f802f39")
+	)
+	(hierarchical_label "PWM_IN5"
+		(shape input)
+		(at 128.27 84.2772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbd3c87c-9194-4e49-bbf5-6f2850be1085")
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-10V/1uf_DonkeyCar.SCHLIB")
+		(at 96.52 146.5072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00cc2d20-9340-45b6-bae2-0c3edb8c4691")
+		(property "Reference" "C6"
+			(at 97.155 145.2372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10V/1uf"
+			(at 96.52 149.6822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 96.52 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c19dad3e-66cf-435a-9351-c29f79c813a2")
+		)
+		(pin "2"
+			(uuid "101a6533-8c52-4353-9ec7-1aa6ab6888cd")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 21.59 56.3372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0311f0bc-46a2-4dcf-b3a7-a7b1823317a8")
+		(property "Reference" "#PWR0215"
+			(at 21.59 56.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 60.1472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 56.3372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 56.3372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 56.3372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6c448411-47e7-49c9-99f6-d30f60d572a5")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB")
+		(at 250.19 56.3372 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "124af7bc-e0c1-482f-96cb-1f841b66daea")
+		(property "Reference" "U21"
+			(at 257.81 47.4472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 257.81 49.9872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT-23-6"
+			(at 250.19 56.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 56.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 56.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "011a1db9-a0a3-4e2c-b31d-5efdd4395989")
+		)
+		(pin "2"
+			(uuid "a518b9e4-173c-4a65-9268-9a42b51ea967")
+		)
+		(pin "1"
+			(uuid "eb8f022d-ae05-4688-8141-3e82cdc1be58")
+		)
+		(pin "3"
+			(uuid "82adfbc1-75e3-4450-9f82-57ac33a94780")
+		)
+		(pin "4"
+			(uuid "20a07fde-4130-436a-ad93-8bbf1191c8db")
+		)
+		(pin "5"
+			(uuid "139de927-4eb2-4027-bcf2-f7e6d6c1b7a5")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U21")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_R-0402-10K_DonkeyCar.SCHLIB")
+		(at 21.59 37.2872 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2253ada4-0ef4-4cfa-b209-2d0a8767163d")
+		(property "Reference" "R81"
+			(at 22.606 37.2872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 22.606 39.8272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R-0402"
+			(at 21.59 37.2872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 37.2872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 37.2872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dad7911-a763-4f2a-aa0a-80a8072da948")
+		)
+		(pin "2"
+			(uuid "993712d3-88b2-49c7-bb4b-bf614a1c2524")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 104.14 150.3172 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22ddb169-5e24-4820-8733-6bf6c6e9e941")
+		(property "Reference" "#PWR0205"
+			(at 104.14 150.3172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 154.1272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "99329232-c4da-46ee-b044-63d8595b872e")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 118.11 136.3472 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2833eb13-fd21-4335-9744-df224359538e")
+		(property "Reference" "#PWR0212"
+			(at 118.11 136.3472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 140.1572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 136.3472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 136.3472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 136.3472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "803d6659-3707-4c3e-9778-584afe991e15")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:ESP32_0_SP0503BAHT_Power_Protection")
+		(at 60.96 183.3372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2eeb4b25-ba04-4852-b59a-834e5bd091b3")
+		(property "Reference" "D12"
+			(at 67.31 182.0672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SP0503BAHT"
+			(at 65.405 185.6232 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 66.675 184.6072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 183.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 183.3372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "SP0503BAHT"
+			(at 67.31 184.6072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "7c156399-ba81-461f-94f6-0e0ea9eed426")
+		)
+		(pin "4"
+			(uuid "48a26a7e-0bfb-4d6d-82e0-f29997b2febf")
+		)
+		(pin "2"
+			(uuid "fbe244d7-c5a4-4302-a0b2-86ac5b77b19c")
+		)
+		(pin "1"
+			(uuid "ec1d455f-a109-4566-b7b4-f27d9436c2dd")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+5V_USB_ARROW")
+		(at 58.42 151.5872 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37000e2d-9bd4-4e28-868f-ce683cdf3332")
+		(property "Reference" "#PWR0202"
+			(at 58.42 151.5872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 58.42 147.7772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 151.5872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 151.5872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 151.5872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "92d96326-59e6-44b0-b558-5fe81ba26d25")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB")
+		(at 250.19 98.2472 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aec15d0-f115-41cf-b2cb-9f8ddfb58d9e")
+		(property "Reference" "U19"
+			(at 257.81 89.3572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 257.81 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT-23-6"
+			(at 250.19 98.2472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 98.2472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 98.2472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28cd34a4-c861-49c1-803b-160fb0f5b7d3")
+		)
+		(pin "4"
+			(uuid "3faee8dc-a214-467b-88b3-99be7702201d")
+		)
+		(pin "6"
+			(uuid "af436912-4bc6-49e6-8b39-3fa5b0de8576")
+		)
+		(pin "1"
+			(uuid "aeb20fca-baf2-4afd-bbbe-b0140d2c06c6")
+		)
+		(pin "3"
+			(uuid "e75e99b7-489f-4f56-bfe2-336b7621720c")
+		)
+		(pin "5"
+			(uuid "bf232dc0-1c63-49cf-afd6-f3344c13038c")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U19")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 21.59 33.4772 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b284125-7593-4bd8-aef8-60afc121d0dd")
+		(property "Reference" "#PWR0214"
+			(at 21.59 33.4772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 21.59 29.6672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 33.4772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 33.4772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 33.4772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4b480dd8-137a-4aaa-926a-a43d325b3015")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:ESP32_1_SW_Push_Switch")
+		(at 152.4 103.3272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d28506e-903f-4f3f-b26b-e1414ab74725")
+		(property "Reference" "RESET"
+			(at 154.305 101.4222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 153.162 105.6132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 147.32 103.3272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 103.3272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 103.3272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "SW_Push"
+			(at 156.972 102.5652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "752b9fd9-e6ac-4e7f-b592-a01933ce62eb")
+		)
+		(pin "2"
+			(uuid "9d3bd2ff-a1e1-411c-80f8-46c59456734c")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "RESET")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 105.41 135.0772 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42148afd-c459-4ae7-95c4-55d471871e33")
+		(property "Reference" "#PWR0206"
+			(at 105.41 135.0772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 138.8872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 135.0772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 135.0772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 135.0772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a4ec8f37-5821-4729-b5e3-f70d0f02b662")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:ESP32_1_SW_Push_Switch")
+		(at 152.4 121.1072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a1f735d-842d-4cad-8dc2-e1c2884ef31d")
+		(property "Reference" "BOOT"
+			(at 154.432 120.8532 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 153.162 123.3932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
+			(at 147.32 121.1072 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.1072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 121.1072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "SW_Push"
+			(at 156.972 120.3452 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a5b98a0-d0d7-4987-8b46-2e8291fb5bd4")
+		)
+		(pin "2"
+			(uuid "40c081c3-2561-44c5-9558-ed3e4bb19a6f")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "BOOT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 254 81.1022 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a53baba-4ab0-4963-ba7c-82db1d314361")
+		(property "Reference" "#PWR0210"
+			(at 254 81.1022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 77.2922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 81.1022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 81.1022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 81.1022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c44f00bd-0ccb-41fc-bd17-6f9f497f10bd")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB")
+		(at 241.3 95.7072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ee6d484-6b02-411e-8ab9-351cb8e7ceba")
+		(property "Reference" "C46"
+			(at 241.935 94.4372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50V/100nf"
+			(at 241.935 98.8822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 241.3 95.7072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 95.7072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 95.7072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70e85679-6f78-401f-a050-916bc2da2dc7")
+		)
+		(pin "2"
+			(uuid "52641991-39de-4c8f-96b5-840c8f2a06d7")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_ESP32-WROOM-E_DonkeyCar.SCHLIB")
+		(at 85.09 63.9572 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "526a5815-ae89-43ae-9d98-b71ae2faa7c6")
+		(property "Reference" "U7"
+			(at 100.965 36.6522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32E-N4"
+			(at 118.618 43.6372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Espressif:ESP32-WROOM-32E"
+			(at 85.09 99.5172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 63.9572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 63.9572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "ESP32-WROOM-32E-N4"
+			(at 100.965 38.5572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "38"
+			(uuid "1a2e0ba1-23b8-47e8-8d39-4b47e88a7e5d")
+		)
+		(pin "15"
+			(uuid "bbff4d04-2769-463f-bf32-83bb4e75f83b")
+		)
+		(pin "35"
+			(uuid "d26eedf7-ac28-4c91-96bf-6e15a3c425ee")
+		)
+		(pin "4"
+			(uuid "bb32637e-ff1c-4f42-b9f7-361e5646afa9")
+		)
+		(pin "1"
+			(uuid "d4c1e2c5-ad3c-4bc6-a62f-b143b43d3abc")
+		)
+		(pin "5"
+			(uuid "42d252eb-ba6d-4237-98bc-3fd750982f25")
+		)
+		(pin "30"
+			(uuid "c70c9f3c-2906-4c7b-b382-f19eae1f584b")
+		)
+		(pin "6"
+			(uuid "91ca06f1-50af-4d36-839e-f5bc1bad9c08")
+		)
+		(pin "23"
+			(uuid "7a99ef68-f1dd-4340-a695-6d98574fd69e")
+		)
+		(pin "36"
+			(uuid "2ac10bc7-0bc2-427c-b096-b3e1050322d5")
+		)
+		(pin "39"
+			(uuid "3f8121a2-d2d6-44dc-80be-cf36ad08b46b")
+		)
+		(pin "9"
+			(uuid "3366a53f-2e45-4a16-b9ff-9a66a7680d95")
+		)
+		(pin "2"
+			(uuid "207527d3-9444-4a4e-88f1-53040b4cdf39")
+		)
+		(pin "34"
+			(uuid "d1c3231f-8976-4d71-a5ed-0bb0e022c0a6")
+		)
+		(pin "11"
+			(uuid "3bc21ee6-9f23-4bc0-b4ae-7a1821f7d6bd")
+		)
+		(pin "37"
+			(uuid "5803c47d-8103-42be-89df-c33ef0745060")
+		)
+		(pin "29"
+			(uuid "b525e19f-9723-4c57-bf29-816dd341b510")
+		)
+		(pin "10"
+			(uuid "7d57e40e-d834-4efb-81e0-a44879c0b21f")
+		)
+		(pin "14"
+			(uuid "1b45896f-1863-41e0-a232-b85c36954d39")
+		)
+		(pin "26"
+			(uuid "1479ea99-a6a2-40a1-805d-ee46976939ae")
+		)
+		(pin "7"
+			(uuid "7154481a-ab02-4492-8bc9-aa79f12230fb")
+		)
+		(pin "8"
+			(uuid "a291abbb-f7e9-4162-b6ab-427c6a0ae49c")
+		)
+		(pin "12"
+			(uuid "a24bcc33-08bd-4404-8708-256312d7525f")
+		)
+		(pin "28"
+			(uuid "94d87741-7562-45c9-8462-53c0320179d3")
+		)
+		(pin "31"
+			(uuid "89f23ffb-13c4-44bb-a941-9b8d2cda5cd6")
+		)
+		(pin "3"
+			(uuid "99fe85ef-f8f3-445d-8f2e-9ae1373c03d0")
+		)
+		(pin "33"
+			(uuid "31b7ab69-8209-40fb-be9a-c3feb99e2857")
+		)
+		(pin "13"
+			(uuid "cc481add-d5e5-4253-a2fb-7965e7507083")
+		)
+		(pin "27"
+			(uuid "2c0e7f7f-f6ab-4294-8d23-c3e86c7b93dc")
+		)
+		(pin "16"
+			(uuid "39328de1-1fd1-4d1c-9445-77e4fcba98b3")
+		)
+		(pin "24"
+			(uuid "d4546ad5-8e9c-44fb-a13e-ca2747854a76")
+		)
+		(pin "25"
+			(uuid "5352d075-14a5-4d12-b01a-529e6d892423")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_2N7002_DonkeyCar.SCHLIB")
+		(at 135.89 103.3272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5802355a-287e-4b92-9780-ddfbacad5563")
+		(property "Reference" "Q20"
+			(at 141.605 102.0572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 140.335 105.6132 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 140.97 105.2322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 103.3272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 103.3272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "2N7002"
+			(at 141.605 104.5972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "a724720b-d0fa-4974-ae76-f19ba6f2c004")
+		)
+		(pin "3"
+			(uuid "f7ca0621-95b6-449a-b27d-7c75360b20aa")
+		)
+		(pin "1"
+			(uuid "0d11246b-0517-409c-b2d2-834db91321ff")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_USB_C_Receptacle_USB2.0_16P_DonkeyCar.SCHLIB")
+		(at 38.1 166.8272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59acc64e-d955-462a-87fa-9f9aa8c3d58e")
+		(property "Reference" "UART"
+			(at 38.735 143.9672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 27.94 192.7352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+			(at 41.91 166.8272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 166.8272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 166.8272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "USB_C_Receptacle_USB2.0_16P"
+			(at 38.1 146.5072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S1"
+			(uuid "8f8f379d-f366-4364-aa70-554f98250cff")
+		)
+		(pin "A5"
+			(uuid "77461b3a-385e-4b96-a44e-d003bf839d01")
+		)
+		(pin "A6"
+			(uuid "24d58140-b357-4888-9df8-89aafa583758")
+		)
+		(pin "B5"
+			(uuid "fe83b859-1036-4172-8b5a-aabe9063f5e6")
+		)
+		(pin "B6"
+			(uuid "25c3cca8-5301-4575-8e39-4149392c3ce2")
+		)
+		(pin "A1"
+			(uuid "396bbcc3-fba6-45bd-a075-67f78fd537cc")
+		)
+		(pin "B8"
+			(uuid "e147ad82-0a7d-4780-a0f0-04e6d8109118")
+		)
+		(pin "B7"
+			(uuid "8c8d1877-17f7-409b-a46b-3864157aab08")
+		)
+		(pin "A4"
+			(uuid "427d489f-7644-4ecd-b5e9-73f884e417be")
+		)
+		(pin "A7"
+			(uuid "c67202d6-45d5-4c13-ab55-468eae2c0f3b")
+		)
+		(pin "A8"
+			(uuid "623cb785-1594-4705-aadd-528f051c35e7")
+		)
+		(pin "A9"
+			(uuid "b7a5ae83-03a1-4f3a-8eef-98edce5a3377")
+		)
+		(pin "B1"
+			(uuid "007cb620-6488-4118-bb8f-931e4cd3974a")
+		)
+		(pin "A12"
+			(uuid "167cf20e-2b3c-4291-9b68-337a9e54410d")
+		)
+		(pin "B12"
+			(uuid "d88e69da-5dfa-436b-978e-152722134ad9")
+		)
+		(pin "B9"
+			(uuid "b9f6a342-6be4-4fea-b5a4-523bdc0e145a")
+		)
+		(pin "B4"
+			(uuid "0ccf867d-223a-4533-b892-0882aa0c1019")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "UART")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_R-0402-10K_DonkeyCar.SCHLIB")
+		(at 153.67 66.4972 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "625f1831-2a2a-4f4d-845e-ee0e1256228b")
+		(property "Reference" "R83"
+			(at 154.94 66.4972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 154.686 69.0372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R-0402"
+			(at 153.67 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd23043-e110-4833-9e8b-179b5e2cebfa")
+		)
+		(pin "2"
+			(uuid "df60696e-7654-4c80-ba98-3736754984ec")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 254 38.5572 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "650e160d-6df7-4364-8121-3a4464627399")
+		(property "Reference" "#PWR0208"
+			(at 254 38.5572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 34.7472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 38.5572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 38.5572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 38.5572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d7a007e8-3c07-4ee6-8e16-f6813025ced7")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_CH342F_DonkeyCar.SCHLIB")
+		(at 87.63 124.9172 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d46ad24-7fb7-4bf9-8bb0-91dae2b0dd7b")
+		(property "Reference" "U9"
+			(at 95.987 107.1372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH342F"
+			(at 105.918 113.4872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 87.63 124.9172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 124.9172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 124.9172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "CH342F"
+			(at 95.987 109.6772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "938c7cad-1b19-47cd-8036-e82eb34a587a")
+		)
+		(pin "8"
+			(uuid "b7653622-c890-46fb-bc01-c7cc6f8ead17")
+		)
+		(pin "9"
+			(uuid "0834c9a6-f054-4cb4-a926-2364c3bcc2f1")
+		)
+		(pin "15"
+			(uuid "8e77bd84-d250-4075-bdea-1dc907e3202a")
+		)
+		(pin "21"
+			(uuid "09c27bb6-23d4-4048-a420-59cfbfad1b95")
+		)
+		(pin "23"
+			(uuid "2955faa2-27ba-4ab8-ac34-1c7ddb2ffb29")
+		)
+		(pin "5"
+			(uuid "b0a647b4-60eb-4bd2-b125-6720cb8c3569")
+		)
+		(pin "7"
+			(uuid "76eeb491-92bb-478c-935c-20573927b500")
+		)
+		(pin "1"
+			(uuid "b69c54da-4109-4f54-800c-b92fbc8095e1")
+		)
+		(pin "10"
+			(uuid "326c03a0-27ea-4e97-8f2c-7384553205d2")
+		)
+		(pin "19"
+			(uuid "9087a3fa-d27f-4477-bfcc-11b64151d753")
+		)
+		(pin "2"
+			(uuid "20ecef2a-a1a1-47cb-9b0e-0869c9a49cd1")
+		)
+		(pin "25"
+			(uuid "907f261b-4570-478c-b0af-3d6d8caac739")
+		)
+		(pin "3"
+			(uuid "e2de0542-864c-4010-a2dc-f8f572ba0b27")
+		)
+		(pin "13"
+			(uuid "e9534ee5-6713-4302-b0ea-fb5eba72eead")
+		)
+		(pin "20"
+			(uuid "7ea72049-f0e2-4830-910b-ee71cb350f22")
+		)
+		(pin "14"
+			(uuid "0ab6e9d9-17aa-43de-bbb0-a4d7f233069d")
+		)
+		(pin "4"
+			(uuid "431f920a-bb89-438b-b4bc-47a4d69f13a5")
+		)
+		(pin "22"
+			(uuid "5b556419-6c3a-4eb9-a8cd-48d25bd92a92")
+		)
+		(pin "24"
+			(uuid "6cf8cf15-739d-44af-aa4b-8be34ab8f0d7")
+		)
+		(pin "12"
+			(uuid "03fee277-c726-497d-aca5-1acb55b38b64")
+		)
+		(pin "11"
+			(uuid "7da2f881-b18c-40f1-bed0-8ae2367ed3f3")
+		)
+		(pin "18"
+			(uuid "a556fc7c-f438-4df1-aafe-8f997ddb12f5")
+		)
+		(pin "16"
+			(uuid "8441acca-c9bc-4b2a-b0fc-aa72ab99e101")
+		)
+		(pin "17"
+			(uuid "928e3cd7-c331-41fe-a784-1445298baa1b")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 149.86 58.8772 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ffa8e00-b745-4ebf-a5f9-aadef421a416")
+		(property "Reference" "#PWR0218"
+			(at 149.86 58.8772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 55.0672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 58.8772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 58.8772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 58.8772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "043c7641-8b96-4c77-bec5-fcac4154bdf1")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 85.09 91.8972 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "726beaf4-64e1-4b22-8926-6158dbf70dfc")
+		(property "Reference" "#PWR0213"
+			(at 85.09 91.8972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 95.7072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 91.8972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2f218885-e2f8-4f1b-848d-91ac2db1b869")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB")
+		(at 91.44 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72c5a561-e370-47d4-a316-631ae9f356a5")
+		(property "Reference" "C2"
+			(at 96.774 27.686 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50V/100nf"
+			(at 104.648 29.718 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 91.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0624e8a9-fce2-4674-bdd2-5db3cd30705c")
+		)
+		(pin "1"
+			(uuid "9985c95d-df76-4196-8878-2c790d75306b")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB")
+		(at 118.11 132.5372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b9ebdd6-33b9-4cfe-aee7-d3958ac52df1")
+		(property "Reference" "C8"
+			(at 118.745 131.2672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50V/100nf"
+			(at 118.745 135.7122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 118.11 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 132.5372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f5972541-b88c-485b-b99e-251d2ca198e6")
+		)
+		(pin "1"
+			(uuid "366a86b0-5a8c-4df1-a8ca-81edfbef0d7c")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-10V/1uf_DonkeyCar.SCHLIB")
+		(at 21.59 49.9872 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c9795df-e673-4466-ba98-82be2b200ca2")
+		(property "Reference" "C5"
+			(at 24.384 50.4952 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10V/1uf"
+			(at 24.384 52.5272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 21.59 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 49.9872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "495cb85e-d1e6-4acb-be9b-3297a9dc3552")
+		)
+		(pin "1"
+			(uuid "d5c840d8-e67e-4d79-bebd-15bc5da7117b")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 96.52 150.3172 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "891bd696-5fb9-4671-ac22-ff8409e9d5f7")
+		(property "Reference" "#PWR0204"
+			(at 96.52 150.3172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 154.1272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 150.3172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "02b78622-0566-4615-95ab-750bcba2b1d4")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 96.52 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bf190fb-1302-415e-8fea-10f4347c324d")
+		(property "Reference" "#PWR01"
+			(at 96.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8225a7ed-cd90-4915-b0cb-38a32c0b6b08")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 85.09 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b51d39c6-ea5f-4ca8-8231-083abf2193a7")
+		(property "Reference" "#PWR0216"
+			(at 85.09 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 85.09 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9c9ce5a7-47b2-4451-a63b-56bd4855e577")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_2_mirrored_2N7002_DonkeyCar.SCHLIB")
+		(at 135.89 121.1072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b664234c-697c-471e-8984-a6fd4888a06f")
+		(property "Reference" "Q13"
+			(at 146.05 117.9322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 140.335 123.3932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 140.97 119.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 121.1072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 121.1072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" "2N7002"
+			(at 146.05 120.4722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3"
+			(uuid "064f07fb-fc83-4732-a63c-731c562c2df8")
+		)
+		(pin "1"
+			(uuid "0222c3f6-2a09-4f19-ba65-0079741808e3")
+		)
+		(pin "2"
+			(uuid "1af80e73-accb-494a-a454-4401979e64a5")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 152.4 112.2172 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "baad2254-9af5-405c-b6b3-c5d130130c46")
+		(property "Reference" "#PWR0217"
+			(at 152.4 112.2172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 112.2172 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 112.2172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 112.2172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 112.2172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "da602558-f9ad-4ce5-9ac1-8f3cdc0128e7")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 254 69.0372 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbf274d8-123f-451c-be0f-b928390d61cb")
+		(property "Reference" "#PWR0211"
+			(at 254 69.0372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 72.8472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 69.0372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 69.0372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 69.0372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8e08fd77-333b-4d92-939b-fc8e5f46e9da")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 38.1 194.7672 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c649d14d-424c-4913-a4a8-e91502828053")
+		(property "Reference" "#PWR0219"
+			(at 38.1 194.7672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 198.5772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 194.7672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 194.7672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 194.7672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "17e5e836-6d16-4907-a75c-a5e7551f5ee5")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:+3V3_ARROW")
+		(at 91.44 149.0472 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb34e3fa-053c-4706-95d6-b77bbb76b8da")
+		(property "Reference" "#PWR0203"
+			(at 91.44 149.0472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 152.8572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 149.0472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 149.0472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 149.0472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6318cba6-3a38-478f-9934-f0a3865cf647")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_3_R-0402-10K_DonkeyCar.SCHLIB")
+		(at 146.685 66.4972 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc89fe2c-b03b-464a-bba5-58656c864227")
+		(property "Reference" "R82"
+			(at 147.955 66.4972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 147.701 69.0372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R-0402"
+			(at 146.685 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 66.4972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dafa6dd-a7fa-41f0-9e77-4d48f58a770c")
+		)
+		(pin "2"
+			(uuid "26ad8b48-e091-4df3-a218-73225cc93b46")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_0_TS5A3159ADBVR_DonkeyCar.SCHLIB")
+		(at 195.58 100.7872 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8534ff9-9d3d-4ef2-93a2-3d96dae686c6")
+		(property "Reference" "U19"
+			(at 195.58 103.3272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 195.58 105.8672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT-23-6"
+			(at 195.58 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 100.7872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c55c7074-4328-4be3-8434-50e8c3b19f0e")
+		)
+		(pin "2"
+			(uuid "8f105a9f-0d65-4749-9415-ebefbe871b69")
+		)
+		(pin "6"
+			(uuid "47afc1eb-89e6-494c-a584-3d953f7a8899")
+		)
+		(pin "4"
+			(uuid "4c8c5e0f-475f-4276-92a7-6471c653475a")
+		)
+		(pin "1"
+			(uuid "0d38234d-4a88-4a94-a18f-eeb2dd613952")
+		)
+		(pin "5"
+			(uuid "b1b5730c-dceb-4666-ac04-ddfcaa255319")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 254 110.9472 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd47a507-2a5e-4a1b-b5ea-24f979941e22")
+		(property "Reference" "#PWR0209"
+			(at 254 110.9472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 114.7572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 110.9472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 110.9472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 110.9472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "91aa296a-d730-4183-b1f9-b5fda968e040")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB")
+		(at 104.14 146.5072 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e54fea96-9a9b-46bd-81fe-452f6d087fbf")
+		(property "Reference" "C7"
+			(at 104.775 145.2372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50V/100nf"
+			(at 104.775 149.6822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 104.14 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 146.5072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d39d225-328d-45dc-b62b-68672aca4289")
+		)
+		(pin "1"
+			(uuid "313d9cbc-df99-47da-a9d1-2d462ea90454")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_1_C-0402-50V/100nf_DonkeyCar.SCHLIB")
+		(at 241.3 53.7972 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7d2eee9-1b96-4c5a-8dea-053bd827b00a")
+		(property "Reference" "C45"
+			(at 241.935 52.5272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "50V/100nf"
+			(at 241.935 56.9722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C-0402"
+			(at 241.3 53.7972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 53.7972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 53.7972 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f536483-64d2-4324-8c4c-336b49eb10a3")
+		)
+		(pin "2"
+			(uuid "ad49b442-9b36-4dab-89e7-c6571e19ff2a")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCarS4-V2.3_2G-altium-import:GND_ARROW")
+		(at 83.82 141.4272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eae08d21-a290-4247-9728-36b66bcb0164")
+		(property "Reference" "#PWR0207"
+			(at 83.82 141.4272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 145.2372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 141.4272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "aa32031a-f04e-483f-b9f4-774691a55964")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DonkeyCar:ESP32_2_mirrored_TS5A3159ADBVR_DonkeyCar.SCHLIB")
+		(at 195.58 52.5272 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ece5bf69-a4a9-49bd-ae7b-6abb709bed5e")
+		(property "Reference" "U21"
+			(at 195.58 50.6222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS5A3159ADBVR"
+			(at 195.58 52.5272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SOT-23-6"
+			(at 195.58 52.5272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 52.5272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 52.5272 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "ef7f3b4d-ea57-45d7-9a7f-ceb11905c7e4")
+		)
+		(pin "4"
+			(uuid "7cc1bd27-3339-4e0b-8aff-f9a403241c07")
+		)
+		(pin "3"
+			(uuid "739ff6c5-1593-4b25-ae0c-972e39f96e80")
+		)
+		(pin "5"
+			(uuid "2e47eeb8-e621-45fe-b732-426112b3818e")
+		)
+		(pin "1"
+			(uuid "ba5ff060-687f-4adf-a97b-335ed6c8544d")
+		)
+		(pin "2"
+			(uuid "b965b061-68dc-4548-8a73-a0de2cdcc111")
+		)
+		(instances
+			(project "DonkeyDrift-MUS4-v2.4.2"
+				(path "/ced55b31-1e57-41bb-be10-afe998666068/1caa35e5-e2fd-43a4-9b28-6f2cca36f186"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
